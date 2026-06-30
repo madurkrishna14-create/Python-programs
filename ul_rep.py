@@ -1,0 +1,5 @@
+str=input("Enter string: ")
+n=int(input("Enter number to repeat string: "))
+print("Repeated string: ",str*n)
+print("Upper case: ",str.upper())
+print("Lower case: ",str.lower())

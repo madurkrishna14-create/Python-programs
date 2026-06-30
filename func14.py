@@ -1,0 +1,11 @@
+import arith
+a=arith.add(10,20)
+s=arith.sub(20,10)
+ml=arith.mul(10,20)
+d=arith.div(20,10)
+m=arith.mod(20,10)
+print(a)
+print(s)
+print(ml)
+print(d)
+print(m)
