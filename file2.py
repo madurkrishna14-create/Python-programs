@@ -1,0 +1,5 @@
+f=open("abc1.txt",'a')
+f.write("Solapur\n")
+f.write("Maharashtra\n")
+f.write("India\n")
+f.close()
