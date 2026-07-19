@@ -1,0 +1,11 @@
+import numpy as np
+array1=np.zeros(10)
+print("Array 1:", array1)
+vowels=np.array(['a','e','i','o','u'])
+print("Vowels:",vowels)
+allones=np.ones((2,5),dtype=np.int32)
+print("All ones:",allones)
+myarray1=np.array([[2.7,-2,-19], [0,3.4,99.9],[10.6,0,13]])
+print("My array 1:",myarray1)
+myarray2=np.arange(4,64,4,dtype=np.float32).reshape(3,5)
+print("My array 2:",myarray2)
