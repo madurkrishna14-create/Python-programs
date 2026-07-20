@@ -1,0 +1,11 @@
+import numpy as np
+array1=np.array([1,2,3,4,5,6,7,8,9,10,11,12])
+print("Array1 (1D): \n", array1)
+print("Shape of the array1:", array1.shape)
+print("Size of the array1:", array1.size)
+print("Dtype of the array1:", array1.dtype)
+print("Reshaped array (1D):", array1.reshape(3,4))
+array2=np.array([[10,20,30],[40,50,60]])
+print("Array2 (2D): \n", array2)
+print("Flattened 2D array:", array2.flatten())
+print("Transposed of matrix array:\n", array2.transpose())

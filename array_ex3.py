@@ -1,0 +1,13 @@
+import numpy as np
+array1=np.array([1,2,3,4,5,6,7,8,9,10])
+print("Array1: ", array1)
+print("First 5 elements of array1: ", array1[0:5])
+print("Last 3 elements of array1: ", array1[-3:-1])
+print("Reverse of array1: ", array1[::-1])
+array2=np.array([[1,2,3],[4,5,6],[7,8,9]])
+print("Array2 (2D): \n", array2)
+print("Second row of array2: ", array2[1])
+print("Third column of array2: ", array2[:,2])
+matrix=np.array([[1,2,3],[4,5,6],[7,8,9]])
+print("Matrix 3x3: \n", matrix)
+print("Submatrix of matrix (2x2): \n", matrix[0:2,0:2])
