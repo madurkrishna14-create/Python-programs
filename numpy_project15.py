@@ -1,0 +1,10 @@
+import numpy as np
+students=np.array([[78,90,40],[66,45,80],[47,77,81],[90,39,60]])
+total=students.sum(axis=1)
+avg=students.mean(axis=1)
+print("Total: ",total)
+print("Average: ",avg)
+print("Topper: ",np.argmax(total)+1)
+print("Lowest: ",np.argmin(total)+1)
+print("Subject Avg: ",students.mean(axis=0))
+print("Rank: ",np.argsort(-total)+1)
