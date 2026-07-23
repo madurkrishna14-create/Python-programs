@@ -1,0 +1,11 @@
+import pandas as pd
+s = pd.Series([10,40,30,20])
+print(s)
+print(len(s)) 
+print(type(s)) 
+print(dir(s)) 
+print(sorted(s)) 
+print(list(s))
+print(dict(s))
+print(max(s)) 
+print(min(s))
